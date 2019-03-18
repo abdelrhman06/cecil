@@ -1,0 +1,788 @@
+﻿body {
+    margin: 0px;
+    /*background:url(Assets/image/sky-lift.png)no-repeat bottom left fixed,
+        url(Assets/image/sky-right.png)no-repeat right fixed,
+        url(Assets/image/leaf-top-left.gif)no-repeat top left fixed,
+        url(Assets/image/leaf-top-right.gif)no-repeat top right fixed,
+        url(Assets/image/Untitled-1.png)no-repeat center fixed*/
+    /*background-image: url('img/background.gif');*/
+    /*background-image: url('img/Untitled-3.png');*/
+    /*background-image: url('img/bg1_02.jpg');*/
+    /*background-image: url('img/bg2_02.jpg');*/
+    /*background-image: url('img/bg3_02.jpg');*/
+    /*background-image: url('img/bg4_02.jpg');*/
+    /*background-image: url('img/bg1top_02.jpg');
+    background-image: url('img/bgbottom_05.jpg');*/
+    background-image: url('img/bg3_02.jpg');
+    /*background-image: url('img/bg-5_02.jpg');*/
+    /*background-image: url('img/bg10_02.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-top {
+    width: 100%;
+    height: 32px;
+    background-image: url('img/index_03.png');
+}
+.nav-top .rightside-1{
+     width:166px;
+     height:38px;
+     background-color:#a2e00b;
+     float:right;
+     margin-right:8px;
+     border-radius: 0px 0px 10px 10px;
+}
+.nav-top .rightside-1 h5{
+     margin:0px;
+     font-family:sans-serif;
+     font-size:15px;
+     line-height:38px
+}
+.nav-top .rightside-2 {
+     width:265px;
+     height:32px;
+     float:right;
+     margin-right:104px;
+}
+.nav-top .rightside-2 a{
+     text-decoration:none;
+     color:#949494;
+}
+.nav-top .rightside-2 a:hover{
+     color:#669933;
+}
+.nav-top .rightside-2 ul{
+     margin:0px;
+     list-style-type:none;
+}
+.nav-top .rightside-2 ul  li{
+     float:left;
+     font-size:30px;
+}
+.nav-top .rightside-2 ul  li i{
+     margin-left:5px;
+}
+.nav-top .leftside{
+     width:303px;
+     height:32px;
+     float:left;
+     margin-left:150px;
+}
+.nav-top .leftside a{
+      text-decoration:none;
+      color:#949494;
+}
+.nav-top .leftside ul{
+      margin:0px;
+      list-style-type:none;
+}
+.nav-top .leftside ul  li{
+      float:left;     
+      text-align:center;
+      line-height:32px;
+      font-family:sans-serif;
+      font-size:13px;            
+}
+.nav-top .leftside ul  li span{
+      padding-right:5px;
+      padding-left:5px;
+      border-right:solid 1px #cbc9cc;
+}       
+.nav-top .leftside a:hover{
+      color:#669933;
+}
+header{
+      width:1000px;
+      height:auto;
+      margin:auto;
+}
+
+header .header-top{
+      width:100%;
+      height:138px;
+}
+header .header-top .logo {
+     width: 242px;
+     height: 127px;
+     float: left;
+     background-image: url('img/logo_bg.png');
+}
+header  .header-top .logo img{
+     width:78px;
+     height:98px;
+     margin-top:10px;
+     margin-left: 54px;
+}
+header .header-top .adsbox-top {
+     width:365px;
+     height:60px;
+     float:left;
+     background-color:white;
+     margin: 38px 0px 0px 8px;
+}
+header .header-top .logo-island{
+     width:345px;
+     height:138px;
+     float :right;
+}
+header .header-top .logo-island img{
+     width:334px;
+     height:138px;
+     float:right;
+}
+header .menubox{
+     width:960px;
+     height:37px;
+     background-color:#303030;
+     border-radius:5px;
+     position:relative;
+     z-index:101;
+ }
+ /*.menubox div {
+     width:1000px;
+     height:39px;
+     margin:auto;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#404040+0,111111+100 
+background: #404040;  Old browsers 
+background: -moz-linear-gradient(top, #404040 0%, #111111 100%);  FF3.6-15 
+background: -webkit-linear-gradient(top, #404040 0%,#111111 100%);  Chrome10-25,Safari5.1-6 
+background: linear-gradient(to bottom, #404040 0%,#111111 100%);  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#111111',GradientType=0 );  IE6-9 
+border-radius:5px;
+ }*/
+ /*header .menubox .flower{
+    width:30px;
+    height:30px;
+    float:right;
+    background-color:aqua;
+}*/
+.menubox ul{
+     margin:0px;
+     list-style-type:none;
+     margin-left: -40px;
+}
+.menubox  ul li{
+     width:91px;
+     height:37px;
+     float:left;
+     text-align:center;
+     line-height:37px;
+     text-decoration:none;
+     font-weight:bold;
+     color:white;
+     margin:auto;
+     font-size:small;
+     font-family: sans-serif;        
+}
+.menubox  ul li:hover{
+     background:#87bc07;
+     border-radius:5px 5px 0px 0px;
+}
+.menubox ul li ul{ 
+     visibility:hidden
+}
+.menubox ul li:hover  ul {
+     visibility:visible;
+}
+.menubox  ul li ul li{
+     width:92px;
+     height:33px;
+     background:#83a40e;             
+}       
+.menubox ul li ul li a { color:black;
+     text-decoration:none;
+}
+.searchboxtop{
+      width:158px;
+      height:20px; 
+      float:left;
+      background-color:#303030;
+      margin-top:8px;
+      border: solid 1px #444444b8;
+      border-radius: 2px;
+      margin-left: 11px;
+}
+.searchboxtop img{
+      width:16px;
+      height:16px;
+      float:right;
+}
+.menubox .searchboxtop input[type=search]{
+       width:139px;
+       height:20px;
+       border:solid 1px #636363;
+       font-family:sans-serif;
+       color:gray;
+       background-color: #666666;
+       border: solid 2px #444444;
+       color:white;
+}
+header .timeline {
+        width: 1000px;
+        height: 30px;
+        margin: auto;
+        z-index: 100;
+        background-color:white
+}
+header .timeline img{
+        width: 1000px;
+        height: 30px;
+}
+.placeholder{
+         width:1000px;
+         height:1852px;
+         /*background-color:white;*/
+         margin:auto;           
+
+}
+.placeholder .square{
+          width:1000px;
+          height:420px;
+          background-color:white;
+          border: solid 1px #c5c6c8;
+}
+.placeholder .square .leftsite {
+            width: 766px;
+            height: 341px;
+            float: left;
+            background-image: url('Assets/image/leftsite.gif');
+}     
+.placeholder .square .rightsite{
+            width:185px;
+            height:341px;
+            float:right;
+            margin-right:20px;
+}
+.placeholder .square .rightsite .joinisland {
+            width:182px;
+            height:84px;
+            background-color: white;
+            background-image: url('img/join_07.png');
+            border:solid 1px #c5c6c8;                        
+}
+.placeholder .square .rightsite .joinisland .arrow {
+            width: 18px;
+            height: 18px;
+            background-image: url('img/arrowright_10.png');
+            float:right;
+            margin-top: 59px;
+            margin-right: 7px;
+}
+.placeholder .square .rightsite .Dealday {
+           width: 185px;
+           height: 252px;
+           background-image: url('img/RightSide2_03.jpg');
+           margin-top: 3px;
+}
+.placeholder .square .bottomsite{
+           width:100%;
+           height:62px;
+           background-color:#f7f7f7;
+           margin-top:9px;
+           float:left;
+           border:solid 1px #c5c6c8;
+             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8f8f8+0,e9e9e9+100 */
+        background: #f8f8f8; /* Old browsers */
+        background: -moz-linear-gradient(top, #f8f8f8 0%, #e9e9e9 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #f8f8f8 0%,#e9e9e9 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #f8f8f8 0%,#e9e9e9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e9e9e9',GradientType=0 ); /* IE6-9 */
+}
+.placeholder .square .bottomsite div {
+          float:left;
+          width:199px;
+          height:62px;
+          margin-left:1px;
+}
+.placeholder .square .bottomsite div .text1{
+          width: 199px;
+          height: 21px;
+          margin-top: 10px;
+          border-right:solid 1px white;
+
+}
+.placeholder .square .bottomsite div .text1 a {
+         text-decoration:none;
+         color:white;
+}
+.placeholder .square .bottomsite div .text1 a h4{
+         margin:0px;
+         line-height:21px;
+         font-family:Arial;
+         font-weight:bold;
+         font-size:17px;
+         text-align:center;
+}
+
+.placeholder .square .bottomsite div .text2{
+          width: 199px;
+          height: 21px;
+          border-right:solid 1px white;
+}
+.placeholder .square .bottomsite div .text2 a  {
+         text-decoration:none;
+         color:white;
+}
+.placeholder .square .bottomsite div .text2 a h6{
+         margin:0px;
+         line-height:21px;
+         font-family:Arial;
+         /*font-weight:bold;*/
+         color:#666666;
+         font-size:12px;
+         margin-left: 2px;
+         text-align:center;
+}
+.placeholder .shopbyage{
+           width:100%;
+           height:147px;
+           float:left;
+           margin:auto;
+}
+.placeholder .shopbyage .smallsquare{
+           width:100%;
+           height:28px;
+           background-color:#161616;
+           margin:auto;
+}
+.placeholder .shopbyage .smallsquare .textshop{
+    width:158px;
+    height:28px;
+}
+.placeholder .shopbyage .smallsquare .textshop h5{
+         margin:0px;
+         line-height:28px;;
+         font-family:Arial;
+         font-weight:bold;
+         font-size:17px;
+         text-align:center;
+         color:white;
+}
+.placeholder .shopbyage .textbox1{
+           width:100%;
+           height:15px;
+           margin-top: 10px;            
+}
+.placeholder .shopbyage .textbox1 div{
+           width:80px;
+           height:15px;
+           float:left;
+           margin-left: 41px;
+}
+.placeholder .shopbyage .textbox1 div a{      
+            color: #999999;
+            text-decoration: none; 
+}
+.placeholder .shopbyage .textbox1 div a h5{
+            font-size: 12px;
+            font-family: sans-serif;
+            line-height: 15px;
+            margin:0px;
+            text-align:center;
+}
+.placeholder .shopbyage .textbox1 div a:hover{
+            color:#669933;
+}
+.placeholder .shopbyage .imagebox{
+            width:100%;
+            height:97px;
+            margin-top: 10px;
+}
+.placeholder .shopbyage .imagebox div {
+            width:81px;
+            height:96px;
+            background-color:#dedede;
+            float:left;
+            margin-left: 40px;
+            border-radius:10px;
+}
+.placeholder .shopbyage .imagebox div img{
+            width:81px;
+            height:78px;
+                margin-top: 9px;
+}
+.placeholder .PHbottom{
+            width:1000px;
+            height:739px;
+            float:left;
+            background-color:#f3f4f6;
+            margin-top:10px;
+}
+.placeholder .PHbottom .leftads{
+            height: 631px;
+            width: 188px;
+            float:left;
+            background-color:white;                 
+}             
+.placeholder .PHbottom .leftads img{
+            height: 631px;
+            width: 188px;
+}
+.placeholder .PHbottom .newproducts{
+            width:596px;
+            height:  29px;    
+            background-color:#222222;
+            float:left;
+            margin-left:13px;
+}
+.placeholder .PHbottom .newproducts strong {
+            margin-left: 25px;
+            line-height: 33px;
+            color: white;
+            font-family: sans-serif;
+}
+.placeholder .PHbottom .newproductsbox{
+            width:594px;
+            height:600px;
+            float:left;
+            margin-left:13px;
+            border:solid 1px #c5c6c8;
+            background-color:white;
+}
+.placeholder .PHbottom .newproductsbox div {
+            width:186px;
+            height:191px;
+            float:left;
+            margin:5px;
+            border:solid 1px #c5c6c8;
+            margin-left: 5px;
+            margin-top: 3px;
+}   
+.placeholder .PHbottom .newproductsbox div img{
+            width:168px;
+            height:139px;
+            float:left;
+            /*position:relative;*/
+            margin: 4px;
+            margin-left: 9px;
+}
+.placeholder .PHbottom .newproductsbox div .textbox{
+            width:175px;
+            height:37px;
+            float:left;
+            background-color:white;
+            margin: 137px 2px;
+            margin-top: 0px;
+            border:none
+}
+.placeholder .PHbottom .newproductsbox div .textbox .boxleft{
+            width:81px;
+            height:37px;
+            margin-top: 0px;
+            border:none;
+            margin-left: 11px;
+}
+.placeholder .PHbottom .newproductsbox div .textbox .boxleft h5{
+           float:left;
+           text-decoration:underline;
+           color:#333333;
+           font-family: sans-serif;
+           margin-top: 3px;
+}
+.placeholder .PHbottom .newproductsbox div .textbox .boxleft h6 {
+           color:red;
+           float:left;
+           font-family: sans-serif;
+           margin-left: -74px;
+           margin-top: 18px;
+           font-size: 11px;
+}
+.placeholder .PHbottom .newproductsbox .textbox .boxright{
+           float:right;
+           width:63px;
+           height: 35px;
+           margin-top: 1px;
+           margin-right: 2px;
+           border:none
+}
+.placeholder .PHbottom .newproductsbox .textbox .boxright .add {
+          background-image: url('images/placeholder/add_10.png');
+          background-image: url('img/add_10.png');
+          width: 18px;
+          height: 18px;
+          float: right;
+          margin-top: 8px;
+          border: none;
+}
+.placeholder .PHbottom .newproductsbox .textbox .boxright .screen {
+          background-image: url('images/placeholder/screen_10.png');
+          background-image: url('img/screen_10.png');
+          width: 22px;
+          height: 21px;
+          float: left;
+          margin-top: 7px;
+          border: none;
+}  
+.placeholder .PHbottom .rightads{
+         width:189px;
+          height:630px;
+          float:right;
+          margin-top: -29px;
+
+}
+.placeholder .PHbottom .rightads .ads1{
+         width: 188px;
+         height: 413px; 
+}
+.placeholder .PHbottom .rightads .ads1 img{
+          width:188px;
+          height:413px;
+}
+.placeholder .PHbottom .rightads .sponsorright{
+          width:189px;
+          height:99px;
+          float:right;
+          margin-top:5px;
+}
+.placeholder .PHbottom .rightads .sponsorright img{
+      width:188px;
+          height:99px;
+          margin-top:3px;
+          border:solid 1px #dadadc;
+}
+.placeholder .PHbottom  .sponsorbottom{
+         width:100%;
+         height:99px;
+         float:left;
+         margin-top:5px;
+}
+.placeholder .PHbottom  .sponsorbottom  .sponsorRB{
+         width:189px;
+         height:99px;
+         float:right;
+}
+.placeholder .PHbottom  .sponsorbottom  .sponsorRB img{
+         width:188px;
+         height:99px;
+             border: solid 1px #dadadc;
+
+}
+.placeholder .PHbottom  .sponsorbottom  .sponsorLB{
+         width:183px;
+         height:99px;
+         float:left;                
+}
+.placeholder .PHbottom .sponsorbottom .sponsorLB img {
+         width:189px;
+         height:99px;
+             border: solid 2px  #dadadc;
+
+    }
+.placeholder .PHbottom .sponsorbottom .centerads{
+         width:594px;
+         height:99px;
+         float:left;
+         background-color:brown;
+         margin-left:19px;
+}
+.placeholder .PHbottom .sponsorbottom .centerads img{
+         width:594px;
+         height:99px;
+}
+/*startfooter*/
+footer{
+         width:1000px;
+         height:371px;
+         margin:auto;
+         background-color:coral;
+         float:left;
+         background-image: url('img/index_03.png');
+}
+footer .sponsorFLbox{
+        width:157px;
+        height:316px;
+        float:left;
+        background-color:white;
+        margin-top: 23px;
+        margin-left: 11px;
+}
+footer .sponsorFLbox img{
+        width:135px;
+        height:301px;   
+        margin:10px;                    
+}
+.placeholder footer  .categorybox{
+        margin-left: 37px;
+        width:163px;
+        height:362px;
+        float:left;
+}
+.placeholder footer .categorybox .boxtop {
+        width:110px;
+        height:36px;
+        float:left;
+        margin-left: 26px;
+        margin-top: 18px;
+        border-bottom:solid 2px #242424;
+}
+.placeholder footer .categorybox .boxtop h5{
+        line-height:36px;
+        text-align:center;
+        color:white;
+        margin: 0px;
+        font-family: sans-serif;
+        font-size:17px
+}
+.placeholder footer .categorybox .boxbottom {
+        width:110px;
+        height:246px;
+        float:left;
+        margin-left: 26px;
+        margin-top: 6px;
+}
+.placeholder footer .categorybox .boxbottom a{
+        text-decoration:none;
+}
+ .placeholder footer .categorybox .boxbottom h6{
+        line-height:36px;
+        text-align:center;
+        color:white;
+        margin: 0px;
+        color:#848484;
+        margin-top: -12px;
+        font-family: sans-serif;
+        font-size:15px
+}
+.placeholder footer .categorybox .boxbottom h6:hover{
+        color:white;                    
+}
+.placeholder footer  .contactus{    
+        margin-left: 37px;
+        width:214px;
+        height:362px;
+        float:left;
+}
+.placeholder footer .contactus .boxtopcontact {
+        width:189px;
+        height:36px;
+        float:left;
+        margin-left: 12px;
+        margin-top: 18px;
+        border-bottom:solid 2px #242424;
+}
+.placeholder footer .contactus .boxtopcontact h5{
+        line-height:36px;
+        color:white;
+        margin: 0px;
+        font-family: sans-serif;
+        font-size:17px
+}
+.placeholder footer .contactus .boxbottomcontact {
+        width:194px;
+        height:246px;
+        float:left;
+        margin-left: 12px;
+        margin-top: 6px;
+}
+.placeholder footer .contactus .boxbottomcontact h6{
+        line-height:36px;
+        color:white;
+        margin: 0px;
+        color:#848484;
+        margin-top: -5px;
+        font-family: sans-serif;
+        font-size:15px
+}
+.placeholder footer .contactus .boxbottomcontact h6:hover{
+        color:white;
+}
+.placeholder footer .contactus .boxbottomcontact a{
+        text-decoration:none
+}
+.placeholder footer  .subscribe{    
+        margin-left: 0px;
+        width:381px;
+        height:362px;
+        float:left;
+}
+.placeholder footer .subscribe .boxtopsubscribe {
+        width:229px;
+        height:36px;
+        float:left;
+        margin-left: 12px;
+        margin-top: 18px;
+        border-bottom:solid 2px #242424;
+}
+.placeholder footer .subscribe .boxtopsubscribe h5{
+        line-height:36px;
+        color:white;
+        margin: 0px;
+        font-family: sans-serif;
+        font-size:17px
+}              
+.placeholder footer .subscribe .boxbottomsubscribe {
+        width:371px;
+        height:246px;
+        float:left;
+        margin-left: 12px;
+        margin-top: 6px;
+}
+.placeholder footer .subscribe .boxbottomsubscribe input{
+        width: 349px;
+        height: 47px;
+        margin-left: 3px;
+        margin-top: 17px;
+        background-color:#292929;
+        border:solid 1px #444444;
+        /*text-align: center;*/
+        border-radius:5px;
+        color:white;
+}
+.placeholder footer .subscribe .boxbottomsubscribe  div{
+
+        float:right;
+        width:77px;
+        height:26px;
+        margin-top: -37px;
+        position:relative;
+        z-index:5;
+        margin-right: 24px;
+}
+.placeholder footer .subscribe .boxbottomsubscribe  div  h6{
+        margin-top: -24px;
+        margin-left: 8px;
+}
+.placeholder footer .subscribe .boxbottomsubscribe h6{
+        /*line-height:10px;*/
+        color:white;
+        margin: 0px;
+        color:#848484;
+        margin-top: 6px;
+        font-family: sans-serif;
+        font-size:13px
+}
+.placeholder footer .subscribe .boxbottomsubscribe h6:hover{
+        color:white;
+}
+.placeholder footer .subscribe .boxbottomsubscribe a{
+        text-decoration:none
+}
+.placeholder footer .subscribe .boxbottomsubscribe .onlinebox{
+        width:229px;
+        height:36px;
+        float:left;
+        margin-left: 12px;
+        margin-top: 18px;
+        border-top:solid 2px #242424;
+}
+.placeholder footer .subscribe .boxbottomsubscribe .social {
+        width:358px;
+        height:36px;
+        float:left;
+        margin-left: 12px;
+        margin-top: 6px;
+}
+.placeholder footer .subscribe .boxbottomsubscribe .social  a{
+        width:36px;
+        height:36px;
+        float:left;
+}
+.placeholder footer .subscribe .boxbottomsubscribe .onlinebox h5 {
+        line-height:47px;
+        color:white;
+        margin: 0px;
+        font-family: sans-serif;
+        font-size:17px
+}
+
+
